@@ -8,7 +8,7 @@ import 'lenis/dist/lenis.css'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-gsap.registerPlugin(SplitText, ScrambleTextPlugin,ScrollTrigger,ScrollSmoother, ScrollToPlugin);
+// gsap.registerPlugin(SplitText, ScrambleTextPlugin,ScrollTrigger,ScrollSmoother, ScrollToPlugin);
 
 window.addEventListener("DOMContentLoaded", () => {
 
