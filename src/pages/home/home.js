@@ -29,7 +29,7 @@ export async function initHome() {
 
   window.gsap = gsap;
 
-  gsap.registerPlugin(SplitText, ScrambleTextPlugin,ScrollTrigger,ScrollSmoother, ScrollToPlugin);
+  // gsap.registerPlugin(SplitText, ScrambleTextPlugin,ScrollTrigger,ScrollSmoother, ScrollToPlugin);
   window.addEventListener("DOMContentLoaded", () => {
     const split = new SplitType(".intro h1", {
       types: "lines, chars",
